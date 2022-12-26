@@ -25,7 +25,7 @@ import { issueLocation, report } from '../utils/locations';
 
 // Number of times a literal must be duplicated to trigger an issue
 const DEFAULT_THRESHOLD = 3;
-const MIN_LENGTH = 10;
+const DEFAULT_MIN_LENGTH = 10;
 const NO_SEPARATOR_REGEXP = /^\w*$/;
 const EXCLUDED_CONTEXTS = [
   'ImportDeclaration',
